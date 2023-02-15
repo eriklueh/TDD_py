@@ -8,3 +8,4 @@ if number is even then return foo
 if number is odd then return bar
 if number is prime then return baz
 
+Leap years
