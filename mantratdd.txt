@@ -1,0 +1,10 @@
+*write a test and the test fails
+*do the simplest thing that could possibly work(made the test pass)
+*the test pass
+*refactor the code
+*the test pass
+
+if number is even then return foo
+if number is odd then return bar
+if number is prime then return baz
+
