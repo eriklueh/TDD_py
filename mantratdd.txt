@@ -8,4 +8,8 @@ if number is even then return foo
 if number is odd then return bar
 if number is prime then return baz
 
-Leap years
+Leap years:
+The year can be evenly divided by 4, is a leap year, unless:
+
+    The year can be evenly divided by 100, it is NOT a leap year, unless:
+        The year is also evenly divisible by 400. Then it is a leap year.

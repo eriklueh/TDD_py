@@ -1,21 +1,5 @@
 import unittest
-
-
-def foo_bar_baz(x):
-    if x % 2 == 0:
-        return tuple(("foo",))
-
-    if x == 1:
-        return tuple(("bar", "baz"))
-    elif x > 1:
-        for i in range(2, x):
-            if (x % i) == 0:
-                break
-        else:
-            return tuple(("bar", "baz"))
-
-    if x % 2 != 0:
-        return tuple(("bar",))
+from foo_bar_baz import foo_bar_baz
 
 
 class FooBarBazTestCase(unittest.TestCase):
